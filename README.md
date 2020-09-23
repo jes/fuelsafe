@@ -32,6 +32,15 @@ Pin | Function
 5 | Pin 0
 6 | GND
 
+The other connections are labelled with letters:
+
+Label | Function
+--- | ---
+A | output signal and GND
+B | to photoresistor next to hose
+C | input power and GND
+D | to LED next to hose
+
 ## Programming
 
 Using the above table of pin assignments from the programming header, connect the ATtiny to an Arduino as per any online
