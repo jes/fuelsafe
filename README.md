@@ -21,6 +21,8 @@ and a circuit schematic:
 
 ![Sketch of schematic](schematic.jpg)
 
+The crosses mark where the traces on the stripboard must be broken.
+
 The 6-pin header at the top is the programming header, and the pins from left to right are:
 
 Pin | Function
