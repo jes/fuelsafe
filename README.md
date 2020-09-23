@@ -41,6 +41,11 @@ B | to photoresistor next to hose
 C | input power and GND
 D | to LED next to hose
 
+There is a 270 Ohm resistor in series with the LED next to the hose. There is no resistor on the output signal (A), so one must
+be supplied external to the FuelSafe if it is being used to drive an LED. There is a 4.7K Ohm resistor on the other half of the
+voltage divider which is used to sense the photoresistor. There is an arbitrary filtering capacitor across the output of the
+LM7805.
+
 ## Programming
 
 Using the above table of pin assignments from the programming header, connect the ATtiny to an Arduino as per any online
