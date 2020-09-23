@@ -23,6 +23,8 @@ and a circuit schematic:
 
 The 6-pin header at the top is the programming header, and the pins from left to right are:
 
+Pin | Function
+--- | ---
 1 | Reset
 2 | Vcc
 3 | Pin 2
